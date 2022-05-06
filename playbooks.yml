@@ -2,7 +2,7 @@
 - name: install s/w application
   hosts: all
   tasks:
-   - name: install/unstall/ s/w
+   - name: install/unstall/ software
      apt:
       name: "{{a}}"
       state: "{{b}}"
